@@ -80,7 +80,7 @@ namespace Sistema_Lanchonete
         private void btnLoginForm1_Click(object sender, EventArgs e)
         {
             ActivateButton(sender,RGBColors.color3);
-            OpenChildForm(new Login());
+            OpenChildForm(new FormLogin());
         }
 
         private void btnPedidoForm1_Click(object sender, EventArgs e)

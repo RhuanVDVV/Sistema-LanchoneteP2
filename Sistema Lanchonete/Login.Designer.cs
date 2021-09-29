@@ -1,7 +1,7 @@
 ﻿
 namespace Sistema_Lanchonete
 {
-    partial class Login
+    partial class FormLogin
     {
         /// <summary>
         /// Required designer variable.
@@ -31,14 +31,14 @@ namespace Sistema_Lanchonete
         {
             this.SuspendLayout();
             // 
-            // Login
+            // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.ClientSize = new System.Drawing.Size(584, 331);
-            this.Name = "Login";
-            this.Text = "FormLogin";
+            this.Name = "FormLogin";
+            this.Text = "Login";
             this.ResumeLayout(false);
 
         }

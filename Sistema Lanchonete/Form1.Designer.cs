@@ -262,6 +262,8 @@ namespace Sistema_Lanchonete
             // lblCurrentChildForm
             // 
             this.lblCurrentChildForm.AutoSize = true;
+            this.lblCurrentChildForm.BackColor = System.Drawing.Color.MidnightBlue;
+            this.lblCurrentChildForm.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblCurrentChildForm.Location = new System.Drawing.Point(55, 25);
             this.lblCurrentChildForm.Name = "lblCurrentChildForm";
             this.lblCurrentChildForm.Size = new System.Drawing.Size(36, 15);
