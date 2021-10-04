@@ -58,7 +58,7 @@ namespace Sistema_Lanchonete
             // 
             // panelMenu
             // 
-            this.panelMenu.BackColor = System.Drawing.Color.RoyalBlue;
+            this.panelMenu.BackColor = System.Drawing.Color.Indigo;
             this.panelMenu.Controls.Add(this.btnSairForm1);
             this.panelMenu.Controls.Add(this.btnFinalizarForm1);
             this.panelMenu.Controls.Add(this.btnClienteForm1);
@@ -74,10 +74,11 @@ namespace Sistema_Lanchonete
             // btnSairForm1
             // 
             this.btnSairForm1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnSairForm1.FlatAppearance.BorderSize = 0;
             this.btnSairForm1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSairForm1.ForeColor = System.Drawing.Color.Black;
+            this.btnSairForm1.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnSairForm1.IconChar = FontAwesome.Sharp.IconChar.SignOutAlt;
-            this.btnSairForm1.IconColor = System.Drawing.Color.Purple;
+            this.btnSairForm1.IconColor = System.Drawing.Color.LimeGreen;
             this.btnSairForm1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSairForm1.IconSize = 36;
             this.btnSairForm1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -94,11 +95,13 @@ namespace Sistema_Lanchonete
             // 
             // btnFinalizarForm1
             // 
+            this.btnFinalizarForm1.BackColor = System.Drawing.Color.Indigo;
             this.btnFinalizarForm1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnFinalizarForm1.FlatAppearance.BorderSize = 0;
             this.btnFinalizarForm1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFinalizarForm1.ForeColor = System.Drawing.Color.Black;
+            this.btnFinalizarForm1.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnFinalizarForm1.IconChar = FontAwesome.Sharp.IconChar.CheckSquare;
-            this.btnFinalizarForm1.IconColor = System.Drawing.Color.Purple;
+            this.btnFinalizarForm1.IconColor = System.Drawing.Color.LimeGreen;
             this.btnFinalizarForm1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnFinalizarForm1.IconSize = 36;
             this.btnFinalizarForm1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -110,16 +113,18 @@ namespace Sistema_Lanchonete
             this.btnFinalizarForm1.Text = "Finalizar";
             this.btnFinalizarForm1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnFinalizarForm1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnFinalizarForm1.UseVisualStyleBackColor = true;
+            this.btnFinalizarForm1.UseVisualStyleBackColor = false;
             this.btnFinalizarForm1.Click += new System.EventHandler(this.btnFinalizarForm1_Click);
             // 
             // btnClienteForm1
             // 
+            this.btnClienteForm1.BackColor = System.Drawing.Color.Indigo;
             this.btnClienteForm1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnClienteForm1.FlatAppearance.BorderSize = 0;
             this.btnClienteForm1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClienteForm1.ForeColor = System.Drawing.Color.Black;
+            this.btnClienteForm1.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnClienteForm1.IconChar = FontAwesome.Sharp.IconChar.Portrait;
-            this.btnClienteForm1.IconColor = System.Drawing.Color.Purple;
+            this.btnClienteForm1.IconColor = System.Drawing.Color.LimeGreen;
             this.btnClienteForm1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnClienteForm1.IconSize = 36;
             this.btnClienteForm1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -131,16 +136,18 @@ namespace Sistema_Lanchonete
             this.btnClienteForm1.Text = "Cliente";
             this.btnClienteForm1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnClienteForm1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnClienteForm1.UseVisualStyleBackColor = true;
+            this.btnClienteForm1.UseVisualStyleBackColor = false;
             this.btnClienteForm1.Click += new System.EventHandler(this.btnClienteForm1_Click);
             // 
             // btnPedidoForm1
             // 
+            this.btnPedidoForm1.BackColor = System.Drawing.Color.Indigo;
             this.btnPedidoForm1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPedidoForm1.FlatAppearance.BorderSize = 0;
             this.btnPedidoForm1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPedidoForm1.ForeColor = System.Drawing.Color.Black;
+            this.btnPedidoForm1.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnPedidoForm1.IconChar = FontAwesome.Sharp.IconChar.CashRegister;
-            this.btnPedidoForm1.IconColor = System.Drawing.Color.Purple;
+            this.btnPedidoForm1.IconColor = System.Drawing.Color.LimeGreen;
             this.btnPedidoForm1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnPedidoForm1.IconSize = 36;
             this.btnPedidoForm1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -152,16 +159,18 @@ namespace Sistema_Lanchonete
             this.btnPedidoForm1.Text = "Pedido";
             this.btnPedidoForm1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPedidoForm1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnPedidoForm1.UseVisualStyleBackColor = true;
+            this.btnPedidoForm1.UseVisualStyleBackColor = false;
             this.btnPedidoForm1.Click += new System.EventHandler(this.btnPedidoForm1_Click);
             // 
             // btnLoginForm1
             // 
+            this.btnLoginForm1.BackColor = System.Drawing.Color.Indigo;
             this.btnLoginForm1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnLoginForm1.FlatAppearance.BorderSize = 0;
             this.btnLoginForm1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLoginForm1.ForeColor = System.Drawing.Color.Black;
+            this.btnLoginForm1.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnLoginForm1.IconChar = FontAwesome.Sharp.IconChar.SignInAlt;
-            this.btnLoginForm1.IconColor = System.Drawing.Color.Purple;
+            this.btnLoginForm1.IconColor = System.Drawing.Color.LimeGreen;
             this.btnLoginForm1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLoginForm1.IconSize = 36;
             this.btnLoginForm1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -187,10 +196,12 @@ namespace Sistema_Lanchonete
             // 
             // btnHome
             // 
+            this.btnHome.BackColor = System.Drawing.Color.Indigo;
+            this.btnHome.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
-            this.btnHome.Location = new System.Drawing.Point(0, 12);
+            this.btnHome.Location = new System.Drawing.Point(0, 0);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(188, 80);
+            this.btnHome.Size = new System.Drawing.Size(200, 120);
             this.btnHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnHome.TabIndex = 0;
             this.btnHome.TabStop = false;
@@ -198,7 +209,7 @@ namespace Sistema_Lanchonete
             // 
             // panelTitleBar
             // 
-            this.panelTitleBar.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panelTitleBar.BackColor = System.Drawing.Color.Purple;
             this.panelTitleBar.Controls.Add(this.iconPictureBox2);
             this.panelTitleBar.Controls.Add(this.iconPictureBox1);
             this.panelTitleBar.Controls.Add(this.btnExit);
@@ -214,7 +225,7 @@ namespace Sistema_Lanchonete
             // iconPictureBox2
             // 
             this.iconPictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconPictureBox2.BackColor = System.Drawing.Color.MidnightBlue;
+            this.iconPictureBox2.BackColor = System.Drawing.Color.Purple;
             this.iconPictureBox2.ForeColor = System.Drawing.Color.Gainsboro;
             this.iconPictureBox2.IconChar = FontAwesome.Sharp.IconChar.Expand;
             this.iconPictureBox2.IconColor = System.Drawing.Color.Gainsboro;
@@ -230,7 +241,7 @@ namespace Sistema_Lanchonete
             // iconPictureBox1
             // 
             this.iconPictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconPictureBox1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.iconPictureBox1.BackColor = System.Drawing.Color.Purple;
             this.iconPictureBox1.ForeColor = System.Drawing.Color.Gainsboro;
             this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize;
             this.iconPictureBox1.IconColor = System.Drawing.Color.Gainsboro;
@@ -246,7 +257,7 @@ namespace Sistema_Lanchonete
             // btnExit
             // 
             this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExit.BackColor = System.Drawing.Color.MidnightBlue;
+            this.btnExit.BackColor = System.Drawing.Color.Purple;
             this.btnExit.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnExit.IconChar = FontAwesome.Sharp.IconChar.Times;
             this.btnExit.IconColor = System.Drawing.Color.Gainsboro;
@@ -262,7 +273,7 @@ namespace Sistema_Lanchonete
             // lblCurrentChildForm
             // 
             this.lblCurrentChildForm.AutoSize = true;
-            this.lblCurrentChildForm.BackColor = System.Drawing.Color.MidnightBlue;
+            this.lblCurrentChildForm.BackColor = System.Drawing.Color.Purple;
             this.lblCurrentChildForm.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblCurrentChildForm.Location = new System.Drawing.Point(55, 25);
             this.lblCurrentChildForm.Name = "lblCurrentChildForm";
@@ -272,10 +283,10 @@ namespace Sistema_Lanchonete
             // 
             // iconCurrentChildForm
             // 
-            this.iconCurrentChildForm.BackColor = System.Drawing.Color.MidnightBlue;
-            this.iconCurrentChildForm.ForeColor = System.Drawing.Color.Purple;
+            this.iconCurrentChildForm.BackColor = System.Drawing.Color.Purple;
+            this.iconCurrentChildForm.ForeColor = System.Drawing.Color.LimeGreen;
             this.iconCurrentChildForm.IconChar = FontAwesome.Sharp.IconChar.Home;
-            this.iconCurrentChildForm.IconColor = System.Drawing.Color.Purple;
+            this.iconCurrentChildForm.IconColor = System.Drawing.Color.LimeGreen;
             this.iconCurrentChildForm.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconCurrentChildForm.IconSize = 38;
             this.iconCurrentChildForm.Location = new System.Drawing.Point(11, 14);
@@ -286,7 +297,7 @@ namespace Sistema_Lanchonete
             // 
             // panelShadow
             // 
-            this.panelShadow.BackColor = System.Drawing.Color.RoyalBlue;
+            this.panelShadow.BackColor = System.Drawing.Color.Indigo;
             this.panelShadow.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelShadow.Location = new System.Drawing.Point(200, 70);
             this.panelShadow.Name = "panelShadow";
@@ -295,7 +306,7 @@ namespace Sistema_Lanchonete
             // 
             // panelDesktop
             // 
-            this.panelDesktop.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.panelDesktop.BackColor = System.Drawing.Color.MediumPurple;
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(200, 80);
             this.panelDesktop.Name = "panelDesktop";

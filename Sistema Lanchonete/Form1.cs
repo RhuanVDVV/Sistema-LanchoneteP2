@@ -35,7 +35,7 @@ namespace Sistema_Lanchonete
         //Estruturas
         private struct RGBColors
         {
-            public static Color color3 = Color.FromArgb(255, 255, 0);
+            public static Color color3 = Color.FromArgb(255, 165, 0);
         }
 
         //Metodos//
@@ -47,7 +47,7 @@ namespace Sistema_Lanchonete
                 //Botão
                 DisableButton();
                 currentBtn = (IconButton)senderBtn;
-                currentBtn.BackColor = Color.FromArgb(65, 105, 225);
+                currentBtn.BackColor = Color.FromArgb(75, 0, 130);
                 currentBtn.ForeColor = color;
                 currentBtn.TextAlign = ContentAlignment.MiddleCenter;
                 currentBtn.IconColor = color;
@@ -68,10 +68,10 @@ namespace Sistema_Lanchonete
         {
             if (currentBtn != null)
             {
-                currentBtn.BackColor = Color.FromArgb(65, 105, 225);
-                currentBtn.ForeColor = Color.Black;
+                currentBtn.BackColor = Color.FromArgb(75,0,130);
+                currentBtn.ForeColor = Color.Gainsboro;
                 currentBtn.TextAlign = ContentAlignment.MiddleLeft;
-                currentBtn.IconColor = Color.Purple;
+                currentBtn.IconColor = Color.LimeGreen;
                 currentBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
                 currentBtn.ImageAlign = ContentAlignment.MiddleLeft;
             }

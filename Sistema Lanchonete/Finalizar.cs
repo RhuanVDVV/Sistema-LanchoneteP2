@@ -14,5 +14,7 @@ namespace Sistema_Lanchonete
         {
             InitializeComponent();
         }
+
+      
     }
 }

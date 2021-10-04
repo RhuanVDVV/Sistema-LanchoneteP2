@@ -35,10 +35,10 @@ namespace Sistema_Lanchonete
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.MediumPurple;
+            this.ClientSize = new System.Drawing.Size(584, 331);
             this.Name = "Sair";
-            this.Text = "FormSair";
+            this.Text = "Sair";
             this.ResumeLayout(false);
 
         }
