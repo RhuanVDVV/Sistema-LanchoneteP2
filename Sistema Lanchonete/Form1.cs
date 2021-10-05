@@ -61,6 +61,7 @@ namespace Sistema_Lanchonete
                 //atual Icone do ChildForm
                 iconCurrentChildForm.IconChar = currentBtn.IconChar;
                 iconCurrentChildForm.IconColor = color;
+                iconCurrentChildForm.Location = new Point(11, 14);
             }
         }
         //Deixar de Destacar botão
@@ -109,7 +110,7 @@ namespace Sistema_Lanchonete
         //voltar no inicio
         private void btnHome_Click(object sender, EventArgs e)
         {
-            currentChildForm.Close();
+            currentChildForm.Close();            
             Reset();
 
         }
@@ -119,7 +120,7 @@ namespace Sistema_Lanchonete
             DisableButton();
             leftBorderBtn.Visible = false;
             iconCurrentChildForm.IconChar = IconChar.Home;
-            iconCurrentChildForm.IconColor = Color.Purple;
+            iconCurrentChildForm.IconColor = Color.LimeGreen;
             lblCurrentChildForm.Text = "Inicio";
         }
         //Arrastar o Form
@@ -162,10 +163,12 @@ namespace Sistema_Lanchonete
             if (WindowState == FormWindowState.Normal)
             {
                 WindowState = FormWindowState.Maximized;
+                iconCurrentChildForm.Location = new Point(11, 14);
             }
             else
             {
                 WindowState = FormWindowState.Normal;
+                iconCurrentChildForm.Location = new Point(11, 14);
             }
         }
         //bota minimizar

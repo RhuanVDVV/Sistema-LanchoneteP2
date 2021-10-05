@@ -283,6 +283,7 @@ namespace Sistema_Lanchonete
             // 
             // iconCurrentChildForm
             // 
+            this.iconCurrentChildForm.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.iconCurrentChildForm.BackColor = System.Drawing.Color.Purple;
             this.iconCurrentChildForm.ForeColor = System.Drawing.Color.LimeGreen;
             this.iconCurrentChildForm.IconChar = FontAwesome.Sharp.IconChar.Home;

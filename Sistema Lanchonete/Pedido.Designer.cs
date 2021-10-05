@@ -30,92 +30,280 @@ namespace Sistema_Lanchonete
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txtAcai300mlFormpedido = new System.Windows.Forms.TextBox();
+            this.txtAcai500mlFormpedido = new System.Windows.Forms.TextBox();
+            this.txtAcai700mlFormpedido = new System.Windows.Forms.TextBox();
+            this.txtAcai1LFormpedido = new System.Windows.Forms.TextBox();
+            this.cbAcai300mlFormPedido = new System.Windows.Forms.CheckBox();
+            this.cbAcai500mlFormPedido = new System.Windows.Forms.CheckBox();
+            this.cbAcai700mlFormPedido = new System.Windows.Forms.CheckBox();
+            this.cbAcai1LFormPedido = new System.Windows.Forms.CheckBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.cbDisquete = new System.Windows.Forms.CheckBox();
+            this.cbSucrilhos = new System.Windows.Forms.CheckBox();
+            this.cbOvomaltine = new System.Windows.Forms.CheckBox();
+            this.cbChocoboll = new System.Windows.Forms.CheckBox();
+            this.cbPaçoca = new System.Windows.Forms.CheckBox();
+            this.cbGranola = new System.Windows.Forms.CheckBox();
+            this.cbLeiteempó = new System.Windows.Forms.CheckBox();
+            this.cbAmendoim = new System.Windows.Forms.CheckBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
+            this.btnAlterarFormPedido = new System.Windows.Forms.Button();
+            this.btnSalvarFormPedido = new System.Windows.Forms.Button();
+            this.cbMorangoCobertura = new System.Windows.Forms.Panel();
+            this.cbChocolate = new System.Windows.Forms.CheckBox();
+            this.cbMaracuja = new System.Windows.Forms.CheckBox();
+            this.cbManga = new System.Windows.Forms.CheckBox();
+            this.cbMorangoFruta = new System.Windows.Forms.CheckBox();
+            this.cbKiwi = new System.Windows.Forms.CheckBox();
+            this.cbBanana = new System.Windows.Forms.CheckBox();
+            this.cbMenta = new System.Windows.Forms.CheckBox();
             this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
-            this.checkBox21 = new System.Windows.Forms.CheckBox();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
+            this.cbFrutasVermelhas = new System.Windows.Forms.CheckBox();
+            this.cbLeiteCondensado = new System.Windows.Forms.CheckBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtIdPedioFormPedido = new System.Windows.Forms.TextBox();
+            this.btnNovoFormPedido = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel4.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.cbMorangoCobertura.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.textBox5);
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.checkBox4);
-            this.panel1.Controls.Add(this.checkBox3);
-            this.panel1.Controls.Add(this.checkBox2);
-            this.panel1.Controls.Add(this.checkBox1);
+            this.panel1.Controls.Add(this.txtAcai300mlFormpedido);
+            this.panel1.Controls.Add(this.txtAcai500mlFormpedido);
+            this.panel1.Controls.Add(this.txtAcai700mlFormpedido);
+            this.panel1.Controls.Add(this.txtAcai1LFormpedido);
+            this.panel1.Controls.Add(this.cbAcai300mlFormPedido);
+            this.panel1.Controls.Add(this.cbAcai500mlFormPedido);
+            this.panel1.Controls.Add(this.cbAcai700mlFormPedido);
+            this.panel1.Controls.Add(this.cbAcai1LFormPedido);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Location = new System.Drawing.Point(2, 17);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(171, 148);
             this.panel1.TabIndex = 0;
+            // 
+            // txtAcai300mlFormpedido
+            // 
+            this.txtAcai300mlFormpedido.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtAcai300mlFormpedido.Location = new System.Drawing.Point(114, 109);
+            this.txtAcai300mlFormpedido.Name = "txtAcai300mlFormpedido";
+            this.txtAcai300mlFormpedido.Size = new System.Drawing.Size(42, 23);
+            this.txtAcai300mlFormpedido.TabIndex = 8;
+            // 
+            // txtAcai500mlFormpedido
+            // 
+            this.txtAcai500mlFormpedido.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtAcai500mlFormpedido.Location = new System.Drawing.Point(114, 84);
+            this.txtAcai500mlFormpedido.Name = "txtAcai500mlFormpedido";
+            this.txtAcai500mlFormpedido.Size = new System.Drawing.Size(42, 23);
+            this.txtAcai500mlFormpedido.TabIndex = 7;
+            // 
+            // txtAcai700mlFormpedido
+            // 
+            this.txtAcai700mlFormpedido.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtAcai700mlFormpedido.Location = new System.Drawing.Point(114, 59);
+            this.txtAcai700mlFormpedido.Name = "txtAcai700mlFormpedido";
+            this.txtAcai700mlFormpedido.Size = new System.Drawing.Size(42, 23);
+            this.txtAcai700mlFormpedido.TabIndex = 6;
+            // 
+            // txtAcai1LFormpedido
+            // 
+            this.txtAcai1LFormpedido.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtAcai1LFormpedido.Location = new System.Drawing.Point(114, 34);
+            this.txtAcai1LFormpedido.Name = "txtAcai1LFormpedido";
+            this.txtAcai1LFormpedido.Size = new System.Drawing.Size(42, 23);
+            this.txtAcai1LFormpedido.TabIndex = 5;
+            // 
+            // cbAcai300mlFormPedido
+            // 
+            this.cbAcai300mlFormPedido.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbAcai300mlFormPedido.AutoSize = true;
+            this.cbAcai300mlFormPedido.Location = new System.Drawing.Point(3, 111);
+            this.cbAcai300mlFormPedido.Name = "cbAcai300mlFormPedido";
+            this.cbAcai300mlFormPedido.Size = new System.Drawing.Size(87, 19);
+            this.cbAcai300mlFormPedido.TabIndex = 4;
+            this.cbAcai300mlFormPedido.Text = "Açai 300 ml";
+            this.cbAcai300mlFormPedido.UseVisualStyleBackColor = true;
+            // 
+            // cbAcai500mlFormPedido
+            // 
+            this.cbAcai500mlFormPedido.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbAcai500mlFormPedido.AutoSize = true;
+            this.cbAcai500mlFormPedido.Location = new System.Drawing.Point(3, 86);
+            this.cbAcai500mlFormPedido.Name = "cbAcai500mlFormPedido";
+            this.cbAcai500mlFormPedido.Size = new System.Drawing.Size(87, 19);
+            this.cbAcai500mlFormPedido.TabIndex = 3;
+            this.cbAcai500mlFormPedido.Text = "Açai 500 ml";
+            this.cbAcai500mlFormPedido.UseVisualStyleBackColor = true;
+            // 
+            // cbAcai700mlFormPedido
+            // 
+            this.cbAcai700mlFormPedido.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbAcai700mlFormPedido.AutoSize = true;
+            this.cbAcai700mlFormPedido.Location = new System.Drawing.Point(3, 61);
+            this.cbAcai700mlFormPedido.Name = "cbAcai700mlFormPedido";
+            this.cbAcai700mlFormPedido.Size = new System.Drawing.Size(87, 19);
+            this.cbAcai700mlFormPedido.TabIndex = 2;
+            this.cbAcai700mlFormPedido.Text = "Açai 700 ml";
+            this.cbAcai700mlFormPedido.UseVisualStyleBackColor = true;
+            // 
+            // cbAcai1LFormPedido
+            // 
+            this.cbAcai1LFormPedido.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbAcai1LFormPedido.AutoSize = true;
+            this.cbAcai1LFormPedido.Location = new System.Drawing.Point(3, 36);
+            this.cbAcai1LFormPedido.Name = "cbAcai1LFormPedido";
+            this.cbAcai1LFormPedido.Size = new System.Drawing.Size(67, 19);
+            this.cbAcai1LFormPedido.TabIndex = 1;
+            this.cbAcai1LFormPedido.Text = "Açai 1 L";
+            this.cbAcai1LFormPedido.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(52, 4);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(57, 15);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Tamanho";
             // 
             // panel3
             // 
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.checkBox9);
-            this.panel3.Controls.Add(this.checkBox10);
-            this.panel3.Controls.Add(this.checkBox11);
-            this.panel3.Controls.Add(this.checkBox12);
-            this.panel3.Controls.Add(this.checkBox5);
-            this.panel3.Controls.Add(this.checkBox6);
-            this.panel3.Controls.Add(this.checkBox7);
-            this.panel3.Controls.Add(this.checkBox8);
+            this.panel3.Controls.Add(this.cbDisquete);
+            this.panel3.Controls.Add(this.cbSucrilhos);
+            this.panel3.Controls.Add(this.cbOvomaltine);
+            this.panel3.Controls.Add(this.cbChocoboll);
+            this.panel3.Controls.Add(this.cbPaçoca);
+            this.panel3.Controls.Add(this.cbGranola);
+            this.panel3.Controls.Add(this.cbLeiteempó);
+            this.panel3.Controls.Add(this.cbAmendoim);
             this.panel3.Controls.Add(this.label3);
-            this.panel3.Location = new System.Drawing.Point(189, 12);
+            this.panel3.Location = new System.Drawing.Point(179, 17);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(188, 148);
             this.panel3.TabIndex = 2;
+            // 
+            // cbDisquete
+            // 
+            this.cbDisquete.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbDisquete.AutoSize = true;
+            this.cbDisquete.Location = new System.Drawing.Point(92, 113);
+            this.cbDisquete.Name = "cbDisquete";
+            this.cbDisquete.Size = new System.Drawing.Size(72, 19);
+            this.cbDisquete.TabIndex = 12;
+            this.cbDisquete.Text = "Disquete";
+            this.cbDisquete.UseVisualStyleBackColor = true;
+            // 
+            // cbSucrilhos
+            // 
+            this.cbSucrilhos.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbSucrilhos.AutoSize = true;
+            this.cbSucrilhos.Location = new System.Drawing.Point(92, 88);
+            this.cbSucrilhos.Name = "cbSucrilhos";
+            this.cbSucrilhos.Size = new System.Drawing.Size(74, 19);
+            this.cbSucrilhos.TabIndex = 11;
+            this.cbSucrilhos.Text = "Sucrilhos";
+            this.cbSucrilhos.UseVisualStyleBackColor = true;
+            // 
+            // cbOvomaltine
+            // 
+            this.cbOvomaltine.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbOvomaltine.AutoSize = true;
+            this.cbOvomaltine.Location = new System.Drawing.Point(92, 63);
+            this.cbOvomaltine.Name = "cbOvomaltine";
+            this.cbOvomaltine.Size = new System.Drawing.Size(88, 19);
+            this.cbOvomaltine.TabIndex = 10;
+            this.cbOvomaltine.Text = "Ovomaltine";
+            this.cbOvomaltine.UseVisualStyleBackColor = true;
+            // 
+            // cbChocoboll
+            // 
+            this.cbChocoboll.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbChocoboll.AutoSize = true;
+            this.cbChocoboll.Location = new System.Drawing.Point(92, 38);
+            this.cbChocoboll.Name = "cbChocoboll";
+            this.cbChocoboll.Size = new System.Drawing.Size(81, 19);
+            this.cbChocoboll.TabIndex = 9;
+            this.cbChocoboll.Text = "Chocoboll";
+            this.cbChocoboll.UseVisualStyleBackColor = true;
+            // 
+            // cbPaçoca
+            // 
+            this.cbPaçoca.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbPaçoca.AutoSize = true;
+            this.cbPaçoca.Location = new System.Drawing.Point(3, 113);
+            this.cbPaçoca.Name = "cbPaçoca";
+            this.cbPaçoca.Size = new System.Drawing.Size(64, 19);
+            this.cbPaçoca.TabIndex = 8;
+            this.cbPaçoca.Text = "Paçoca";
+            this.cbPaçoca.UseVisualStyleBackColor = true;
+            // 
+            // cbGranola
+            // 
+            this.cbGranola.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbGranola.AutoSize = true;
+            this.cbGranola.Location = new System.Drawing.Point(3, 88);
+            this.cbGranola.Name = "cbGranola";
+            this.cbGranola.Size = new System.Drawing.Size(67, 19);
+            this.cbGranola.TabIndex = 7;
+            this.cbGranola.Text = "Granola";
+            this.cbGranola.UseVisualStyleBackColor = true;
+            // 
+            // cbLeiteempó
+            // 
+            this.cbLeiteempó.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbLeiteempó.AutoSize = true;
+            this.cbLeiteempó.Location = new System.Drawing.Point(3, 63);
+            this.cbLeiteempó.Name = "cbLeiteempó";
+            this.cbLeiteempó.Size = new System.Drawing.Size(88, 19);
+            this.cbLeiteempó.TabIndex = 6;
+            this.cbLeiteempó.Text = "Leite em pó";
+            this.cbLeiteempó.UseVisualStyleBackColor = true;
+            // 
+            // cbAmendoim
+            // 
+            this.cbAmendoim.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbAmendoim.AutoSize = true;
+            this.cbAmendoim.Location = new System.Drawing.Point(3, 38);
+            this.cbAmendoim.Name = "cbAmendoim";
+            this.cbAmendoim.Size = new System.Drawing.Size(86, 19);
+            this.cbAmendoim.TabIndex = 5;
+            this.cbAmendoim.Text = "Amendoim";
+            this.cbAmendoim.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(45, 4);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(91, 15);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Complementos";
             // 
             // dataGridView1
             // 
             this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.PaleGreen;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 169);
+            this.dataGridView1.Location = new System.Drawing.Point(2, 169);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
             this.dataGridView1.Size = new System.Drawing.Size(365, 150);
@@ -125,83 +313,179 @@ namespace Sistema_Lanchonete
             // 
             this.panel4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.button1);
-            this.panel4.Location = new System.Drawing.Point(384, 248);
+            this.panel4.Controls.Add(this.btnNovoFormPedido);
+            this.panel4.Controls.Add(this.btnAlterarFormPedido);
+            this.panel4.Controls.Add(this.btnSalvarFormPedido);
+            this.panel4.Location = new System.Drawing.Point(373, 248);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(188, 71);
+            this.panel4.Size = new System.Drawing.Size(199, 71);
             this.panel4.TabIndex = 4;
             // 
-            // button1
+            // btnAlterarFormPedido
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.Location = new System.Drawing.Point(58, 21);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnAlterarFormPedido.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAlterarFormPedido.Location = new System.Drawing.Point(135, 32);
+            this.btnAlterarFormPedido.Name = "btnAlterarFormPedido";
+            this.btnAlterarFormPedido.Size = new System.Drawing.Size(59, 23);
+            this.btnAlterarFormPedido.TabIndex = 1;
+            this.btnAlterarFormPedido.Text = "Alterar";
+            this.btnAlterarFormPedido.UseVisualStyleBackColor = true;
             // 
-            // panel2
+            // btnSalvarFormPedido
             // 
-            this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.checkBox22);
-            this.panel2.Controls.Add(this.checkBox21);
-            this.panel2.Controls.Add(this.checkBox19);
-            this.panel2.Controls.Add(this.checkBox20);
-            this.panel2.Controls.Add(this.checkBox17);
-            this.panel2.Controls.Add(this.checkBox18);
-            this.panel2.Controls.Add(this.checkBox15);
-            this.panel2.Controls.Add(this.checkBox16);
-            this.panel2.Controls.Add(this.checkBox13);
-            this.panel2.Controls.Add(this.checkBox14);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Location = new System.Drawing.Point(384, 12);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(188, 180);
-            this.panel2.TabIndex = 3;
+            this.btnSalvarFormPedido.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnSalvarFormPedido.Location = new System.Drawing.Point(76, 32);
+            this.btnSalvarFormPedido.Name = "btnSalvarFormPedido";
+            this.btnSalvarFormPedido.Size = new System.Drawing.Size(48, 23);
+            this.btnSalvarFormPedido.TabIndex = 0;
+            this.btnSalvarFormPedido.Text = "Salvar";
+            this.btnSalvarFormPedido.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // cbMorangoCobertura
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(443, 225);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "label1";
+            this.cbMorangoCobertura.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbMorangoCobertura.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.cbMorangoCobertura.Controls.Add(this.cbChocolate);
+            this.cbMorangoCobertura.Controls.Add(this.cbMaracuja);
+            this.cbMorangoCobertura.Controls.Add(this.cbManga);
+            this.cbMorangoCobertura.Controls.Add(this.cbMorangoFruta);
+            this.cbMorangoCobertura.Controls.Add(this.cbKiwi);
+            this.cbMorangoCobertura.Controls.Add(this.cbBanana);
+            this.cbMorangoCobertura.Controls.Add(this.cbMenta);
+            this.cbMorangoCobertura.Controls.Add(this.checkBox16);
+            this.cbMorangoCobertura.Controls.Add(this.cbFrutasVermelhas);
+            this.cbMorangoCobertura.Controls.Add(this.cbLeiteCondensado);
+            this.cbMorangoCobertura.Controls.Add(this.label5);
+            this.cbMorangoCobertura.Controls.Add(this.label4);
+            this.cbMorangoCobertura.Location = new System.Drawing.Point(373, 17);
+            this.cbMorangoCobertura.Name = "cbMorangoCobertura";
+            this.cbMorangoCobertura.Size = new System.Drawing.Size(210, 180);
+            this.cbMorangoCobertura.TabIndex = 3;
             // 
-            // textBox1
+            // cbChocolate
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox1.Location = new System.Drawing.Point(487, 222);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(31, 23);
-            this.textBox1.TabIndex = 6;
+            this.cbChocolate.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbChocolate.AutoSize = true;
+            this.cbChocolate.Location = new System.Drawing.Point(123, 81);
+            this.cbChocolate.Name = "cbChocolate";
+            this.cbChocolate.Size = new System.Drawing.Size(80, 19);
+            this.cbChocolate.TabIndex = 16;
+            this.cbChocolate.Text = "Chocolate";
+            this.cbChocolate.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // cbMaracuja
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(52, 4);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 15);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Tamanho";
+            this.cbMaracuja.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbMaracuja.AutoSize = true;
+            this.cbMaracuja.Location = new System.Drawing.Point(3, 81);
+            this.cbMaracuja.Name = "cbMaracuja";
+            this.cbMaracuja.Size = new System.Drawing.Size(75, 19);
+            this.cbMaracuja.TabIndex = 15;
+            this.cbMaracuja.Text = "Maracuja";
+            this.cbMaracuja.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // cbManga
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(45, 4);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 15);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Complementos";
+            this.cbManga.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbManga.AutoSize = true;
+            this.cbManga.Location = new System.Drawing.Point(135, 151);
+            this.cbManga.Name = "cbManga";
+            this.cbManga.Size = new System.Drawing.Size(63, 19);
+            this.cbManga.TabIndex = 14;
+            this.cbManga.Text = "Manga";
+            this.cbManga.UseVisualStyleBackColor = true;
+            // 
+            // cbMorangoFruta
+            // 
+            this.cbMorangoFruta.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbMorangoFruta.AutoSize = true;
+            this.cbMorangoFruta.Location = new System.Drawing.Point(135, 128);
+            this.cbMorangoFruta.Name = "cbMorangoFruta";
+            this.cbMorangoFruta.Size = new System.Drawing.Size(75, 19);
+            this.cbMorangoFruta.TabIndex = 13;
+            this.cbMorangoFruta.Text = "Morango";
+            this.cbMorangoFruta.UseVisualStyleBackColor = true;
+            // 
+            // cbKiwi
+            // 
+            this.cbKiwi.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbKiwi.AutoSize = true;
+            this.cbKiwi.Location = new System.Drawing.Point(10, 151);
+            this.cbKiwi.Name = "cbKiwi";
+            this.cbKiwi.Size = new System.Drawing.Size(48, 19);
+            this.cbKiwi.TabIndex = 12;
+            this.cbKiwi.Text = "Kiwi";
+            this.cbKiwi.UseVisualStyleBackColor = true;
+            // 
+            // cbBanana
+            // 
+            this.cbBanana.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbBanana.AutoSize = true;
+            this.cbBanana.Location = new System.Drawing.Point(10, 128);
+            this.cbBanana.Name = "cbBanana";
+            this.cbBanana.Size = new System.Drawing.Size(65, 19);
+            this.cbBanana.TabIndex = 11;
+            this.cbBanana.Text = "Banana";
+            this.cbBanana.UseVisualStyleBackColor = true;
+            // 
+            // cbMenta
+            // 
+            this.cbMenta.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbMenta.AutoSize = true;
+            this.cbMenta.Location = new System.Drawing.Point(123, 59);
+            this.cbMenta.Name = "cbMenta";
+            this.cbMenta.Size = new System.Drawing.Size(60, 19);
+            this.cbMenta.TabIndex = 10;
+            this.cbMenta.Text = "Menta";
+            this.cbMenta.UseVisualStyleBackColor = true;
+            // 
+            // checkBox16
+            // 
+            this.checkBox16.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.checkBox16.AutoSize = true;
+            this.checkBox16.Location = new System.Drawing.Point(123, 34);
+            this.checkBox16.Name = "checkBox16";
+            this.checkBox16.Size = new System.Drawing.Size(75, 19);
+            this.checkBox16.TabIndex = 9;
+            this.checkBox16.Text = "Morango";
+            this.checkBox16.UseVisualStyleBackColor = true;
+            // 
+            // cbFrutasVermelhas
+            // 
+            this.cbFrutasVermelhas.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbFrutasVermelhas.AutoSize = true;
+            this.cbFrutasVermelhas.Location = new System.Drawing.Point(3, 59);
+            this.cbFrutasVermelhas.Name = "cbFrutasVermelhas";
+            this.cbFrutasVermelhas.Size = new System.Drawing.Size(115, 19);
+            this.cbFrutasVermelhas.TabIndex = 8;
+            this.cbFrutasVermelhas.Text = "Frutas Vermelhas";
+            this.cbFrutasVermelhas.UseVisualStyleBackColor = true;
+            // 
+            // cbLeiteCondensado
+            // 
+            this.cbLeiteCondensado.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbLeiteCondensado.AutoSize = true;
+            this.cbLeiteCondensado.Location = new System.Drawing.Point(3, 34);
+            this.cbLeiteCondensado.Name = "cbLeiteCondensado";
+            this.cbLeiteCondensado.Size = new System.Drawing.Size(121, 19);
+            this.cbLeiteCondensado.TabIndex = 7;
+            this.cbLeiteCondensado.Text = "Leite Condensado";
+            this.cbLeiteCondensado.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(83, 103);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(41, 15);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Frutas";
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.label4.Location = new System.Drawing.Point(58, 4);
@@ -210,263 +494,33 @@ namespace Sistema_Lanchonete
             this.label4.TabIndex = 1;
             this.label4.Text = "Coberturas";
             // 
-            // label5
+            // label1
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(73, 103);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 15);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Frutas";
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(406, 222);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(58, 15);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "ID Pedido";
             // 
-            // checkBox1
+            // txtIdPedioFormPedido
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(3, 36);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(83, 19);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.txtIdPedioFormPedido.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtIdPedioFormPedido.Location = new System.Drawing.Point(497, 219);
+            this.txtIdPedioFormPedido.Name = "txtIdPedioFormPedido";
+            this.txtIdPedioFormPedido.Size = new System.Drawing.Size(43, 23);
+            this.txtIdPedioFormPedido.TabIndex = 6;
             // 
-            // checkBox2
+            // btnNovoFormPedido
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(3, 61);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(83, 19);
-            this.checkBox2.TabIndex = 2;
-            this.checkBox2.Text = "checkBox2";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(3, 86);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(83, 19);
-            this.checkBox3.TabIndex = 3;
-            this.checkBox3.Text = "checkBox3";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(3, 111);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(83, 19);
-            this.checkBox4.TabIndex = 4;
-            this.checkBox4.Text = "checkBox4";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(114, 34);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(42, 23);
-            this.textBox2.TabIndex = 5;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(114, 59);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(42, 23);
-            this.textBox3.TabIndex = 6;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(114, 84);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(42, 23);
-            this.textBox4.TabIndex = 7;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(114, 109);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(42, 23);
-            this.textBox5.TabIndex = 8;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(3, 113);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(83, 19);
-            this.checkBox5.TabIndex = 8;
-            this.checkBox5.Text = "checkBox5";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(3, 88);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(83, 19);
-            this.checkBox6.TabIndex = 7;
-            this.checkBox6.Text = "checkBox6";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(3, 63);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(83, 19);
-            this.checkBox7.TabIndex = 6;
-            this.checkBox7.Text = "checkBox7";
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // checkBox8
-            // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(3, 38);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(83, 19);
-            this.checkBox8.TabIndex = 5;
-            this.checkBox8.Text = "checkBox8";
-            this.checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(92, 113);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(83, 19);
-            this.checkBox9.TabIndex = 12;
-            this.checkBox9.Text = "checkBox9";
-            this.checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // checkBox10
-            // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(92, 88);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(89, 19);
-            this.checkBox10.TabIndex = 11;
-            this.checkBox10.Text = "checkBox10";
-            this.checkBox10.UseVisualStyleBackColor = true;
-            // 
-            // checkBox11
-            // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(92, 63);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(89, 19);
-            this.checkBox11.TabIndex = 10;
-            this.checkBox11.Text = "checkBox11";
-            this.checkBox11.UseVisualStyleBackColor = true;
-            // 
-            // checkBox12
-            // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(92, 38);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(89, 19);
-            this.checkBox12.TabIndex = 9;
-            this.checkBox12.Text = "checkBox12";
-            this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // checkBox13
-            // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(3, 59);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(89, 19);
-            this.checkBox13.TabIndex = 8;
-            this.checkBox13.Text = "checkBox13";
-            this.checkBox13.UseVisualStyleBackColor = true;
-            // 
-            // checkBox14
-            // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(3, 34);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(89, 19);
-            this.checkBox14.TabIndex = 7;
-            this.checkBox14.Text = "checkBox14";
-            this.checkBox14.UseVisualStyleBackColor = true;
-            // 
-            // checkBox15
-            // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(98, 59);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(89, 19);
-            this.checkBox15.TabIndex = 10;
-            this.checkBox15.Text = "checkBox15";
-            this.checkBox15.UseVisualStyleBackColor = true;
-            // 
-            // checkBox16
-            // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(98, 34);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(89, 19);
-            this.checkBox16.TabIndex = 9;
-            this.checkBox16.Text = "checkBox16";
-            this.checkBox16.UseVisualStyleBackColor = true;
-            // 
-            // checkBox17
-            // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.Location = new System.Drawing.Point(3, 153);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(89, 19);
-            this.checkBox17.TabIndex = 12;
-            this.checkBox17.Text = "checkBox17";
-            this.checkBox17.UseVisualStyleBackColor = true;
-            // 
-            // checkBox18
-            // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Location = new System.Drawing.Point(3, 128);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(89, 19);
-            this.checkBox18.TabIndex = 11;
-            this.checkBox18.Text = "checkBox18";
-            this.checkBox18.UseVisualStyleBackColor = true;
-            // 
-            // checkBox19
-            // 
-            this.checkBox19.AutoSize = true;
-            this.checkBox19.Location = new System.Drawing.Point(94, 153);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(89, 19);
-            this.checkBox19.TabIndex = 14;
-            this.checkBox19.Text = "checkBox19";
-            this.checkBox19.UseVisualStyleBackColor = true;
-            // 
-            // checkBox20
-            // 
-            this.checkBox20.AutoSize = true;
-            this.checkBox20.Location = new System.Drawing.Point(94, 128);
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(89, 19);
-            this.checkBox20.TabIndex = 13;
-            this.checkBox20.Text = "checkBox20";
-            this.checkBox20.UseVisualStyleBackColor = true;
-            // 
-            // checkBox21
-            // 
-            this.checkBox21.AutoSize = true;
-            this.checkBox21.Location = new System.Drawing.Point(3, 81);
-            this.checkBox21.Name = "checkBox21";
-            this.checkBox21.Size = new System.Drawing.Size(89, 19);
-            this.checkBox21.TabIndex = 15;
-            this.checkBox21.Text = "checkBox21";
-            this.checkBox21.UseVisualStyleBackColor = true;
-            // 
-            // checkBox22
-            // 
-            this.checkBox22.AutoSize = true;
-            this.checkBox22.Location = new System.Drawing.Point(98, 81);
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(89, 19);
-            this.checkBox22.TabIndex = 16;
-            this.checkBox22.Text = "checkBox22";
-            this.checkBox22.UseVisualStyleBackColor = true;
+            this.btnNovoFormPedido.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnNovoFormPedido.Location = new System.Drawing.Point(3, 32);
+            this.btnNovoFormPedido.Name = "btnNovoFormPedido";
+            this.btnNovoFormPedido.Size = new System.Drawing.Size(59, 23);
+            this.btnNovoFormPedido.TabIndex = 2;
+            this.btnNovoFormPedido.Text = "Novo";
+            this.btnNovoFormPedido.UseVisualStyleBackColor = true;
             // 
             // Pedido
             // 
@@ -474,9 +528,9 @@ namespace Sistema_Lanchonete
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumPurple;
             this.ClientSize = new System.Drawing.Size(584, 331);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtIdPedioFormPedido);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.cbMorangoCobertura);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel3);
@@ -489,8 +543,8 @@ namespace Sistema_Lanchonete
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel4.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.cbMorangoCobertura.ResumeLayout(false);
+            this.cbMorangoCobertura.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -502,39 +556,41 @@ namespace Sistema_Lanchonete
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel cbMorangoCobertura;
+        private System.Windows.Forms.Button btnSalvarFormPedido;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.TextBox txtIdPedioFormPedido;
+        private System.Windows.Forms.TextBox txtAcai300mlFormpedido;
+        private System.Windows.Forms.TextBox txtAcai500mlFormpedido;
+        private System.Windows.Forms.TextBox txtAcai700mlFormpedido;
+        private System.Windows.Forms.TextBox txtAcai1LFormpedido;
+        private System.Windows.Forms.CheckBox cbAcai300mlFormPedido;
+        private System.Windows.Forms.CheckBox cbAcai500mlFormPedido;
+        private System.Windows.Forms.CheckBox cbAcai700mlFormPedido;
+        private System.Windows.Forms.CheckBox cbAcai1LFormPedido;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox8;
+        private System.Windows.Forms.CheckBox cbDisquete;
+        private System.Windows.Forms.CheckBox cbSucrilhos;
+        private System.Windows.Forms.CheckBox cbOvomaltine;
+        private System.Windows.Forms.CheckBox cbChocoboll;
+        private System.Windows.Forms.CheckBox cbPaçoca;
+        private System.Windows.Forms.CheckBox cbGranola;
+        private System.Windows.Forms.CheckBox cbLeiteempó;
+        private System.Windows.Forms.CheckBox cbAmendoim;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.CheckBox checkBox22;
-        private System.Windows.Forms.CheckBox checkBox21;
-        private System.Windows.Forms.CheckBox checkBox19;
-        private System.Windows.Forms.CheckBox checkBox20;
-        private System.Windows.Forms.CheckBox checkBox17;
-        private System.Windows.Forms.CheckBox checkBox18;
-        private System.Windows.Forms.CheckBox checkBox15;
+        private System.Windows.Forms.CheckBox cbChocolate;
+        private System.Windows.Forms.CheckBox cbMaracuja;
+        private System.Windows.Forms.CheckBox cbManga;
+        private System.Windows.Forms.CheckBox cbMorangoFruta;
+        private System.Windows.Forms.CheckBox cbKiwi;
+        private System.Windows.Forms.CheckBox cbBanana;
+        private System.Windows.Forms.CheckBox cbMenta;
         private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox14;
+        private System.Windows.Forms.CheckBox cbFrutasVermelhas;
+        private System.Windows.Forms.CheckBox cbLeiteCondensado;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnAlterarFormPedido;
+        private System.Windows.Forms.Button btnNovoFormPedido;
     }
 }

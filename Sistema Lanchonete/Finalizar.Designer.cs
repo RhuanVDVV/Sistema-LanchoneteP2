@@ -29,88 +29,67 @@ namespace Sistema_Lanchonete
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewFormFinalizar = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.txtTotalFormFinalizar = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.txtPagamentoFormFinalizar = new System.Windows.Forms.TextBox();
+            this.comboBoxFormadePagamento = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtTrocoFormFinalizar = new System.Windows.Forms.TextBox();
+            this.btnFinalizarFormFinalizar = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFormFinalizar)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dataGridViewFormFinalizar
             // 
-            this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.PaleGreen;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(69, 22);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(432, 150);
-            this.dataGridView1.TabIndex = 0;
+            this.dataGridViewFormFinalizar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dataGridViewFormFinalizar.BackgroundColor = System.Drawing.Color.PaleGreen;
+            this.dataGridViewFormFinalizar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewFormFinalizar.Location = new System.Drawing.Point(69, 22);
+            this.dataGridViewFormFinalizar.Name = "dataGridViewFormFinalizar";
+            this.dataGridViewFormFinalizar.RowTemplate.Height = 25;
+            this.dataGridViewFormFinalizar.Size = new System.Drawing.Size(432, 150);
+            this.dataGridViewFormFinalizar.TabIndex = 0;
             // 
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.txtTrocoFormFinalizar);
+            this.panel1.Controls.Add(this.txtTotalFormFinalizar);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.txtPagamentoFormFinalizar);
+            this.panel1.Controls.Add(this.comboBoxFormadePagamento);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(126, 178);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(317, 151);
             this.panel1.TabIndex = 1;
             // 
-            // comboBox1
+            // txtTotalFormFinalizar
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(23, 32);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(100, 23);
-            this.comboBox1.TabIndex = 1;
+            this.txtTotalFormFinalizar.Location = new System.Drawing.Point(212, 32);
+            this.txtTotalFormFinalizar.Name = "txtTotalFormFinalizar";
+            this.txtTotalFormFinalizar.Size = new System.Drawing.Size(100, 23);
+            this.txtTotalFormFinalizar.TabIndex = 6;
             // 
-            // label1
+            // label2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 11);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(130, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Metodo De Pagamento";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(38, 70);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(65, 23);
-            this.textBox1.TabIndex = 2;
-            // 
-            // panel2
-            // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.button3);
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Location = new System.Drawing.Point(13, 115);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(299, 33);
-            this.panel2.TabIndex = 3;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(168, 35);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 15);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Total:";
             // 
             // panel3
             // 
@@ -120,64 +99,72 @@ namespace Sistema_Lanchonete
             this.panel3.Size = new System.Drawing.Size(13, 100);
             this.panel3.TabIndex = 4;
             // 
-            // label2
+            // panel2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(168, 32);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 15);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "label2";
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.btnFinalizarFormFinalizar);
+            this.panel2.Location = new System.Drawing.Point(95, 113);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(112, 33);
+            this.panel2.TabIndex = 3;
             // 
-            // textBox2
+            // txtPagamentoFormFinalizar
             // 
-            this.textBox2.Location = new System.Drawing.Point(212, 29);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
-            this.textBox2.TabIndex = 6;
+            this.txtPagamentoFormFinalizar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtPagamentoFormFinalizar.Location = new System.Drawing.Point(38, 70);
+            this.txtPagamentoFormFinalizar.Name = "txtPagamentoFormFinalizar";
+            this.txtPagamentoFormFinalizar.Size = new System.Drawing.Size(65, 23);
+            this.txtPagamentoFormFinalizar.TabIndex = 2;
+            this.txtPagamentoFormFinalizar.Text = "0\r\n";
+            this.txtPagamentoFormFinalizar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox3
+            // comboBoxFormadePagamento
             // 
-            this.textBox3.Location = new System.Drawing.Point(212, 67);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 23);
-            this.textBox3.TabIndex = 7;
+            this.comboBoxFormadePagamento.FormattingEnabled = true;
+            this.comboBoxFormadePagamento.Items.AddRange(new object[] {
+            "Dinheiro",
+            "Cartão de Crédito",
+            "Cartão de Débito",
+            "Pic-Pay",
+            "Pix"});
+            this.comboBoxFormadePagamento.Location = new System.Drawing.Point(23, 32);
+            this.comboBoxFormadePagamento.Name = "comboBoxFormadePagamento";
+            this.comboBoxFormadePagamento.Size = new System.Drawing.Size(100, 23);
+            this.comboBoxFormadePagamento.TabIndex = 1;
             // 
-            // label3
+            // label1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(168, 70);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 15);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "label3";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(13, 11);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(122, 15);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Forma De Pagamento";
             // 
-            // button1
+            // label4
             // 
-            this.button1.Location = new System.Drawing.Point(3, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(168, 73);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(39, 15);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Troco:";
             // 
-            // button2
+            // txtTrocoFormFinalizar
             // 
-            this.button2.Location = new System.Drawing.Point(219, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.txtTrocoFormFinalizar.Location = new System.Drawing.Point(212, 70);
+            this.txtTrocoFormFinalizar.Name = "txtTrocoFormFinalizar";
+            this.txtTrocoFormFinalizar.Size = new System.Drawing.Size(100, 23);
+            this.txtTrocoFormFinalizar.TabIndex = 10;
             // 
-            // button3
+            // btnFinalizarFormFinalizar
             // 
-            this.button3.Location = new System.Drawing.Point(108, 5);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnFinalizarFormFinalizar.Location = new System.Drawing.Point(20, 5);
+            this.btnFinalizarFormFinalizar.Name = "btnFinalizarFormFinalizar";
+            this.btnFinalizarFormFinalizar.Size = new System.Drawing.Size(75, 23);
+            this.btnFinalizarFormFinalizar.TabIndex = 0;
+            this.btnFinalizarFormFinalizar.Text = "Finalizar";
+            this.btnFinalizarFormFinalizar.UseVisualStyleBackColor = true;
             // 
             // Finalizar
             // 
@@ -186,10 +173,10 @@ namespace Sistema_Lanchonete
             this.BackColor = System.Drawing.Color.MediumPurple;
             this.ClientSize = new System.Drawing.Size(584, 331);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dataGridViewFormFinalizar);
             this.Name = "Finalizar";
             this.Text = "Finalizar";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFormFinalizar)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -199,19 +186,17 @@ namespace Sistema_Lanchonete
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridViewFormFinalizar;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBoxFormadePagamento;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtTotalFormFinalizar;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox txtPagamentoFormFinalizar;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtTrocoFormFinalizar;
+        private System.Windows.Forms.Button btnFinalizarFormFinalizar;
     }
 }
