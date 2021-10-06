@@ -319,10 +319,13 @@ namespace Sistema_Lanchonete
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ControlBox = false;
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelShadow);
             this.Controls.Add(this.panelTitleBar);
             this.Controls.Add(this.panelMenu);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "lblTitleChildForm";
             this.Text = "Form1";
             this.panelMenu.ResumeLayout(false);
